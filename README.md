@@ -13,8 +13,8 @@ This web app is not only a realtime weather forecast for any location in the wor
 
 # PREVIEW:
 ### TEMPRATURE HEATMAP
-![Screenshot (46)](https://github.com/ayush110404/WEATHER-GRAPHIX/assets/114819135/6311c775-0bdb-4eea-9916-0603ad90105c)
+![Screenshot (46)](https://github.com/ayush110404/WEATHER-GRAPHIX/assets/114819135/6609fc19-798f-49ba-b65e-f5690550ffc6)
 ### PRECIPITATION HEATMAP
-![Screenshot (50)](https://github.com/ayush110404/WEATHER-GRAPHIX/assets/114819135/9e16c02a-4b6d-4842-b744-fcde67ee8d85)
+![Screenshot (50)](https://github.com/ayush110404/WEATHER-GRAPHIX/assets/114819135/b89db253-3d6b-46ab-af9c-271f4a378142)
 ### WIND-SPEED HEATMAP
-![Screenshot (49)](https://github.com/ayush110404/WEATHER-GRAPHIX/assets/114819135/8cae931f-2891-415d-aaf9-f8286d97fcd4)
+![Screenshot (49)](https://github.com/ayush110404/WEATHER-GRAPHIX/assets/114819135/d320bf25-8d82-4893-86e9-80a49509bfb2)
