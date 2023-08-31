@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(44, 44, 44);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    overflow-y: auto;
+}
+.info{
+    max-width: 50%;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: azure;
+    background-color: rgb(21, 17, 17);
+}
+.map{
+    width: 50vw;
+    max-width: 50%;
+    height: 100vh;
+    background-color:rgb(44, 44, 44);      
+}
+.form-floating{
+    display: flex;
+    flex-direction: row;
+}
+.form-select{
+    margin: 10px ;
+}
+.input-group{
+    margin: 10px;
+}
+
+.butt{
+    display: flex;
+    flex-direction: row;
+}
+#search{
+    justify-self: right;
+    margin: 10px;
+}
+#live{
+    margin: 10px;
+}
+.weatherDetail{
+    color: white;
+    position: relative;
+    width: 38vw;
+    height: 70vh;
+    top: 5rem;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+#Area,#img{
+    position: relative;
+    bottom: 5rem;
+    font-size: xx-large;
+    margin:1rem
+}
+.Detail{
+    position: relative;
+    bottom: 5rem;
+}
+
+.weatherCards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1rem;
+    margin: 1rem;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    background-color: rgb(43, 43, 43);
+    color: white;
+    display: flex;
+    position: relative;
+    bottom: 1rem;
+    align-items: center;
+    padding: 0.6rem;
+    border-radius: 10px;
+    font-size: 20px;
+    /* background-color: azure;/ */
+    /* font-style: bolder; */
+    /* font-weight:9400; */
+}
+.text{
+    position: relative;
+    bottom: 12px;
+    margin-left: 18px;
+    font-weight:550;
+}
+.result{
+    position: relative;
+    right: 4.5rem;
+    margin-top: 20px;
+    /* top:15px; */
+}
+.icon{
+    font-size: 45px;
+}
+@media (max-width:750px) {
+    .form-floating{
+        display: flex;
+        flex-direction: column;
+    }
+    .form-select{
+        max-width: 98%;
+        margin: 4px;
+    }
+    .input-group{
+        max-width: 98%;
+        margin: 4px;
+    }
+}
+@media (max-width:950px) {
+    .weatherCards{
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(43, 43, 43);
+        color: white;
+        padding: 0.2rem;
+        border-radius: 25px;
+        font-size: 16px;
+    }
+
+    .weatherDetail{
+        color: white;
+        position: relative;
+        width: 1vw;
+        height: 50vh;
+        top: 4.3rem;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* background-color: aqua; */
+    }
+    #Area,#img{
+        position: relative;
+        bottom: 5rem;
+        font-size: xx-large;
+        margin:10px;
+    }
+    .Detail{
+        position: relative;
+        bottom: 5rem;
+    }
+    
+}
