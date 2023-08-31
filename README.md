@@ -8,7 +8,7 @@ This web app is not only a realtime weather forecast for any location in the wor
 - Temprature Heatmap
 - Wind-Speed Heatmap
 
-## Libraries
+## Libraries and API
   It uses OpenWeather API to get weather data and Leaflet Map library for interactive maps
 
 # PREVIEW:
