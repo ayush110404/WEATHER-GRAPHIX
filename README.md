@@ -1,6 +1,6 @@
 # WeatherGraphiX
 
-This project provides a realtime weather forecast for any location in the world and provide several more atmospheric condition information and also provide various other features like:
+This web app is not only a realtime weather forecast for any location in the world but also provide several more atmospheric condition information and also provide various other features like:
 - Cloud Cover
 - Humidity
 - Wind Speed
